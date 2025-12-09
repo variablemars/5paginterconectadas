@@ -1,0 +1,143 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #e42d15;
+    font-family: 'calibri';
+}
+
+.menu
+{
+    width: 900px;
+    margin: 0 auto;
+}
+header
+{
+    background-color: rgb(13, 28, 238);
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+
+}
+img
+{
+    width: 120px;
+    height: 100px;
+    float: left;
+    padding: 8px;
+}
+
+nav
+{
+    float: right;
+}
+
+nav ul li
+{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: rgba(0, 255, 21, 0.644);
+    font-weight: bold;
+}
+
+nav ul li a::before
+{
+    display: block;
+    content: '';
+    width: 0%;
+    background: rgb(228, 23, 23);
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: 1s;
+}
+
+nav ul li a:hover::before
+{
+    width: 100%;
+
+}
+
+div
+{
+max-width: 1000px;
+margin:auto;
+
+}
+p
+{
+    width: 70%;
+    float: left;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.fotoactual
+{
+    float: right; 
+    margin-right: 20px; 
+    width: 200px;
+    
+}
+
+.imagen{
+        flex: 0 0 auto;
+        width: 200px;
+        margin-left: 20px;
+      
+      
+}
+
+
+
+.contenedor-fichajes {
+    max-width: 1000px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.contenedor-fichajes p {
+    float: none !important;
+    width: auto !important;
+    background-color: transparent !important;
+    text-align: center !important;
+    margin-bottom: 0.5rem;
+}
+
+.contenedor-fichajes img {
+    float: none !important;
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.contenedor-fichajes .card {
+    float: none !important;
+    max-width: none !important;
+    margin: auto;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+
+.menu {
+    overflow: hidden;
+}
